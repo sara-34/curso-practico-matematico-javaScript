@@ -29,7 +29,7 @@ function calcularPrecioConDescuento() {
 
     const newPrecio = (precio * (100 - descuento)) / 100;
     
-    pResultado.innerText = newPrecio + '%';
+    pResultado.innerText = '$' + newPrecio;
 
     
 }
