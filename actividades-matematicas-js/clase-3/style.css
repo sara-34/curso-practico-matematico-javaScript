@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formulario{
+    width: 300px;
+    height: 400px;
+    background-color: #D5CABD;
+    place-items: center;
+    border-radius: 20px;
+    
+}
+
+.container-general{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.informacion{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    text-align: center;
+    width: 300px;
+    margin-top: 100px;
+    gap: 10px;
+}
+
+.informacion input{
+    width: 200px;
+    height: 30px;
+    margin-left: 50px;
+}
+
+label{
+    font-family: 'Tilt Neon', cursive;
+}
+#descuento{
+    display: inline-block;
+    border-radius: 5px;
+    border: solid 1px black;
+}
+
+#price{
+    border-radius: 5px;
+    border: solid 1px black;
+
+}
+
+#calcular{
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: #BEA6A0;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Tilt Neon', cursive;
+
+}
+
+
+h1{
+    position: relative;
+    top:70px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+
+.estrella{ 
+    background-color: white;
+    position: relative;
+    bottom: 100px;
+    width: 100px;
+     height: 50px;
+     border-top: 20px solid transparent;
+     border-right: solid 100px  #BEA6A0;
+     border-bottom: solid 20px transparent;
+}
+
+
+.estrella p{
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    bottom: 5px;
+    left: 29px;
+    color: white;
+    
+}
+
+
+
+

@@ -90,8 +90,6 @@ function guardar() {
     console.log(variableTemporal)
     num2 = resultado.innerText;
     console.log(num2)
-
-
     
 }
 
@@ -123,6 +121,8 @@ function limpiar() {
 function igual() {
     
 }
+
+
 
 
 
